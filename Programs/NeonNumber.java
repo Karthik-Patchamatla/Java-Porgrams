@@ -3,13 +3,14 @@ import java.util.Scanner;
 public class NeonNumber {
     public static boolean isNeon(int a) {
         int number = a*a;
+        int temp = number;
         int sum = 0;
-        while(a>0) {
-            int r = a%10;
+        while(temp>0) {
+            int r = temp%10;
             sum = sum + r;
-            a = a/10;
+            temp = temp/10;
         }
-        return number==sum;
+        return a==sum;
     }
 
     public static void main(String[] args) {
