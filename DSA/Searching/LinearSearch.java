@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Searching;
 
 public class LinearSearch {
     public static int Searching(int a[], int key) {
