@@ -82,6 +82,7 @@ public class ReverseLinkedList {
         System.out.println("Null");
     }
 
+    // Reverse Linked List using Iterative Method
     public void reverseList() {
         if(head == null || head.next == null) {
             return;
