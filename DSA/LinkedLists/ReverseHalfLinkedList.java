@@ -37,6 +37,7 @@ public class ReverseHalfLinkedList {
         System.out.println("Null");
     }
 
+    // Reverse the linked list from the middle
     public void reverseHalfLinkedList() {
         if (head == null || head.next == null) {
             return;
